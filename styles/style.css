@@ -2,14 +2,18 @@
 
 .header {
   padding: 92px 24px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
   align-items: center;
+  justify-items: normal
+  /* align-content: space-between; */
 }
 
 .header__menu {
   display: flex;
   justify-content: center;
+  align-items: end;
+  padding: 0 31px 0 0;
 }
 
 .header__menu-list {
@@ -31,6 +35,8 @@
 
 .header__logo {
   display: block;
+  justify-self: center;
+  align-self: stretch;
   width: 148px;
   height: 105px;
 }
@@ -41,6 +47,8 @@
 
 .header__contacts-list {
   display: block;
+  justify-self: end;
+  align-self: center;
   list-style: none;
 }
 
