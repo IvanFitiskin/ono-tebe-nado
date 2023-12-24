@@ -3,21 +3,20 @@
 .header {
   padding: 92px 24px;
   display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: 4fr 1fr 4fr;
   align-items: center;
-  justify-items: normal
 }
 
 .header__menu {
   display: flex;
   justify-content: center;
   align-items: end;
-  padding: 0 31px 0 0;
+  padding-right: 2px;
 }
 
 .header__menu-list {
   display: flex;
-  gap: 32px;
+  gap: 24px;
   list-style-type: circle;
   text-indent: 10px;
 }
@@ -28,14 +27,14 @@
 
 .header__menu-link {
   color: #000;
-  font-size: 16px;
-  line-height: 1.35;
+  font-size: 18px;
 }
 
 .header__logo {
   display: block;
   justify-self: center;
   align-self: stretch;
+  padding: 1px 6px 6px;
   width: 148px;
   height: 105px;
 }
@@ -45,8 +44,9 @@
 }
 
 .header__contacts-list {
+  padding-left: 180px;
   display: block;
-  justify-self: end;
+  justify-self: start;
   align-self: center;
   list-style: none;
 }
@@ -57,9 +57,9 @@
 
 .header__contacts-link {
   color: #000;
-  font-size: 16px;
-  line-height: 1.35;
-  text-decoration: underline;
+  font-size: 18px;
+  line-height: 24.3px;
+  /* text-decoration: underline; */
 }
 
 .cover {
